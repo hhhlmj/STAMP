@@ -1,0 +1,1079 @@
+Loading data...
+../data/ICEWS14s
+# Sanity Check:  entities: 11757
+# Sanity Check:  relations: 232
+# Sanity Check:  edges: 77167
+# Sanity Check:  ave node num : 230.185897, ave rel num : 90.628205, snapshots num: 0312, max edges num: 0389, min edges num: 0093, max union rate: 1.0000, min union rate: 1.0000
+# Sanity Check:  ave node num : 259.617647, ave rel num : 88.823529, snapshots num: 0034, max edges num: 0398, min edges num: 0159, max union rate: 1.0000, min union rate: 1.0000
+# Sanity Check:  ave node num : 259.617647, ave rel num : 88.823529, snapshots num: 0034, max edges num: 0398, min edges num: 0159, max union rate: 1.0000, min union rate: 1.0000
+# Sanity Check:  ave node num : 259.617647, ave rel num : 88.823529, snapshots num: 0034, max edges num: 0398, min edges num: 0159, max union rate: 1.0000, min union rate: 1.0000
+# Sanity Check:  ave node num : 259.617647, ave rel num : 88.823529, snapshots num: 0034, max edges num: 0398, min edges num: 0159, max union rate: 1.0000, min union rate: 1.0000
+Loading model from ../models/best_model_1_14s.pth...
+use layer :uvrgcn
+activate function: <function rrelu at 0x7fef88830488>
+activate function: <function rrelu at 0x7fef88830488>
+Loading model from ../models/best_model_2_14s.pth...
+use layer :uvrgcn
+activate function: <function rrelu at 0x7fef88830488>
+activate function: <function rrelu at 0x7fef88830488>
+
+==============================
+Start Ensemble Testing...
+==============================
+  0%|          | 0/34 [00:00<?, ?it/s]/home/sdjt208/anaconda3/envs/GN-GCN/lib/python3.7/site-packages/torch/nn/functional.py:1956: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+  3%|▎         | 1/34 [00:00<00:06,  5.46it/s]  9%|▉         | 3/34 [00:00<00:02, 10.47it/s] 15%|█▍        | 5/34 [00:00<00:02, 12.09it/s] 21%|██        | 7/34 [00:00<00:02, 12.95it/s]MRR (raw-entity): 0.344073
+Hits (raw-entity) @ 1: 0.237805
+Hits (raw-entity) @ 3: 0.390244
+Hits (raw-entity) @ 10: 0.542683
+MRR (filt-entity): 0.344944
+Hits (filt-entity) @ 1: 0.237805
+Hits (filt-entity) @ 3: 0.396341
+Hits (filt-entity) @ 10: 0.542683
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.344073
+Hits (raw_ent) @ 1: 0.237805
+Hits (raw_ent) @ 3: 0.390244
+Hits (raw_ent) @ 10: 0.542683
+MRR (filter_ent): 0.344944
+Hits (filter_ent) @ 1: 0.237805
+Hits (filter_ent) @ 3: 0.396341
+Hits (filter_ent) @ 10: 0.542683
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.344073   | 0.344944
+Hits@1     | 0.237805   | 0.237805
+Hits@3     | 0.390244   | 0.396341
+Hits@10    | 0.542683   | 0.542683
+========================================
+MRR (raw-entity): 0.499007
+Hits (raw-entity) @ 1: 0.378049
+Hits (raw-entity) @ 3: 0.573171
+Hits (raw-entity) @ 10: 0.725610
+MRR (filt-entity): 0.513339
+Hits (filt-entity) @ 1: 0.396341
+Hits (filt-entity) @ 3: 0.585366
+Hits (filt-entity) @ 10: 0.725610
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.421540
+Hits (raw_ent) @ 1: 0.307927
+Hits (raw_ent) @ 3: 0.481707
+Hits (raw_ent) @ 10: 0.634146
+MRR (filter_ent): 0.429142
+Hits (filter_ent) @ 1: 0.317073
+Hits (filter_ent) @ 3: 0.490854
+Hits (filter_ent) @ 10: 0.634146
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.421540   | 0.429142
+Hits@1     | 0.307927   | 0.317073
+Hits@3     | 0.481707   | 0.490854
+Hits@10    | 0.634146   | 0.634146
+========================================
+MRR (raw-entity): 0.499215
+Hits (raw-entity) @ 1: 0.381443
+Hits (raw-entity) @ 3: 0.553265
+Hits (raw-entity) @ 10: 0.735395
+MRR (filt-entity): 0.516645
+Hits (filt-entity) @ 1: 0.405498
+Hits (filt-entity) @ 3: 0.563574
+Hits (filt-entity) @ 10: 0.735395
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.458056
+Hits (raw_ent) @ 1: 0.342488
+Hits (raw_ent) @ 3: 0.515347
+Hits (raw_ent) @ 10: 0.681745
+MRR (filter_ent): 0.470278
+Hits (filter_ent) @ 1: 0.358643
+Hits (filter_ent) @ 3: 0.525040
+Hits (filter_ent) @ 10: 0.681745
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.458056   | 0.470278
+Hits@1     | 0.342488   | 0.358643
+Hits@3     | 0.515347   | 0.525040
+Hits@10    | 0.681745   | 0.681745
+========================================
+MRR (raw-entity): 0.430741
+Hits (raw-entity) @ 1: 0.302721
+Hits (raw-entity) @ 3: 0.506803
+Hits (raw-entity) @ 10: 0.663265
+MRR (filt-entity): 0.453180
+Hits (filt-entity) @ 1: 0.333333
+Hits (filt-entity) @ 3: 0.523809
+Hits (filt-entity) @ 10: 0.670068
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.449260
+Hits (raw_ent) @ 1: 0.329682
+Hits (raw_ent) @ 3: 0.512596
+Hits (raw_ent) @ 10: 0.675794
+MRR (filter_ent): 0.464772
+Hits (filter_ent) @ 1: 0.350493
+Hits (filter_ent) @ 3: 0.524644
+Hits (filter_ent) @ 10: 0.677985
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.449260   | 0.464772
+Hits@1     | 0.329682   | 0.350493
+Hits@3     | 0.512596   | 0.524644
+Hits@10    | 0.675794   | 0.677985
+========================================
+MRR (raw-entity): 0.409838
+Hits (raw-entity) @ 1: 0.291815
+Hits (raw-entity) @ 3: 0.487544
+Hits (raw-entity) @ 10: 0.633452
+MRR (filt-entity): 0.422926
+Hits (filt-entity) @ 1: 0.309609
+Hits (filt-entity) @ 3: 0.501779
+Hits (filt-entity) @ 10: 0.633452
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.439982
+Hits (raw_ent) @ 1: 0.320771
+Hits (raw_ent) @ 3: 0.506700
+Hits (raw_ent) @ 10: 0.665829
+MRR (filter_ent): 0.454924
+Hits (filter_ent) @ 1: 0.340871
+Hits (filter_ent) @ 3: 0.519263
+Hits (filter_ent) @ 10: 0.667504
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.439982   | 0.454924
+Hits@1     | 0.320771   | 0.340871
+Hits@3     | 0.506700   | 0.519263
+Hits@10    | 0.665829   | 0.667504
+========================================
+MRR (raw-entity): 0.385186
+Hits (raw-entity) @ 1: 0.255591
+Hits (raw-entity) @ 3: 0.466454
+Hits (raw-entity) @ 10: 0.616613
+MRR (filt-entity): 0.397783
+Hits (filt-entity) @ 1: 0.274760
+Hits (filt-entity) @ 3: 0.472843
+Hits (filt-entity) @ 10: 0.623003
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.428601
+Hits (raw_ent) @ 1: 0.307233
+Hits (raw_ent) @ 3: 0.498341
+Hits (raw_ent) @ 10: 0.655607
+MRR (filter_ent): 0.443056
+Hits (filter_ent) @ 1: 0.327140
+Hits (filter_ent) @ 3: 0.509622
+Hits (filter_ent) @ 10: 0.658261
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.428601   | 0.443056
+Hits@1     | 0.307233   | 0.327140
+Hits@3     | 0.498341   | 0.509622
+Hits@10    | 0.655607   | 0.658261
+========================================
+MRR (raw-entity): 0.429159
+Hits (raw-entity) @ 1: 0.316129
+Hits (raw-entity) @ 3: 0.480645
+Hits (raw-entity) @ 10: 0.635484
+MRR (filt-entity): 0.443722
+Hits (filt-entity) @ 1: 0.338710
+Hits (filt-entity) @ 3: 0.490323
+Hits (filt-entity) @ 10: 0.635484
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.428697
+Hits (raw_ent) @ 1: 0.308751
+Hits (raw_ent) @ 3: 0.495322
+Hits (raw_ent) @ 10: 0.652174
+MRR (filter_ent): 0.443170
+Hits (filter_ent) @ 1: 0.329114
+Hits (filter_ent) @ 3: 0.506329
+Hits (filter_ent) @ 10: 0.654375
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.428697   | 0.443170
+Hits@1     | 0.308751   | 0.329114
+Hits@3     | 0.495322   | 0.506329
+Hits@10    | 0.652174   | 0.654375
+========================================
+MRR (raw-entity): 0.435845
+Hits (raw-entity) @ 1: 0.305936
+Hits (raw-entity) @ 3: 0.538813
+Hits (raw-entity) @ 10: 0.643836
+MRR (filt-entity): 0.462126
+Hits (filt-entity) @ 1: 0.342466
+Hits (filt-entity) @ 3: 0.557078
+Hits (filt-entity) @ 10: 0.643836
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.429465
+Hits (raw_ent) @ 1: 0.308448
+Hits (raw_ent) @ 3: 0.500000
+Hits (raw_ent) @ 10: 0.651277
+MRR (filter_ent): 0.445209
+Hits (filter_ent) @ 1: 0.330550
+Hits (filter_ent) @ 3: 0.511788
+Hits (filter_ent) @ 10: 0.653242
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.429465   | 0.445209
+Hits@1     | 0.308448   | 0.330550
+Hits@3     | 0.500000   | 0.511788
+Hits@10    | 0.651277   | 0.653242
+========================================
+MRR (raw-entity): 0.429905
+Hits (raw-entity) @ 1: 0.313043
+Hits (raw-entity) @ 3: 0.473913
+Hits (raw-entity) @ 10: 0.691304
+MRR (filt-entity): 0.448722
+Hits (filt-entity) @ 1: 0.339130
+Hits (filt-entity) @ 3: 0.491304
+Hits (filt-entity) @ 10: 0.695652
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.429510
+Hits (raw_ent) @ 1: 0.308914
+Hits (raw_ent) @ 3: 0.497352
+Hits (raw_ent) @ 10: 0.655340
+MRR (filter_ent): 0.445565
+Hits (filter_ent) @ 1: 0.331421
+Hits (filter_ent) @ 3: 0.509709
+Hits (filter_ent) @ 10: 0.657546
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.429510   | 0.445565
+Hits@1     | 0.308914   | 0.331421
+Hits@3     | 0.497352   | 0.509709 26%|██▋       | 9/34 [00:00<00:01, 13.20it/s] 32%|███▏      | 11/34 [00:00<00:01, 13.28it/s] 38%|███▊      | 13/34 [00:01<00:01, 13.17it/s] 44%|████▍     | 15/34 [00:01<00:01, 13.69it/s] 50%|█████     | 17/34 [00:01<00:01, 14.00it/s]
+Hits@10    | 0.655340   | 0.657546
+========================================
+MRR (raw-entity): 0.463858
+Hits (raw-entity) @ 1: 0.347607
+Hits (raw-entity) @ 3: 0.539043
+Hits (raw-entity) @ 10: 0.685139
+MRR (filt-entity): 0.486494
+Hits (filt-entity) @ 1: 0.377834
+Hits (filt-entity) @ 3: 0.559194
+Hits (filt-entity) @ 10: 0.685139
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.434631
+Hits (raw_ent) @ 1: 0.314683
+Hits (raw_ent) @ 3: 0.503567
+Hits (raw_ent) @ 10: 0.659782
+MRR (filter_ent): 0.451667
+Hits (filter_ent) @ 1: 0.338340
+Hits (filter_ent) @ 3: 0.517086
+Hits (filter_ent) @ 10: 0.661660
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.434631   | 0.451667
+Hits@1     | 0.314683   | 0.338340
+Hits@3     | 0.503567   | 0.517086
+Hits@10    | 0.659782   | 0.661660
+========================================
+MRR (raw-entity): 0.478709
+Hits (raw-entity) @ 1: 0.365782
+Hits (raw-entity) @ 3: 0.525074
+Hits (raw-entity) @ 10: 0.705015
+MRR (filt-entity): 0.489013
+Hits (filt-entity) @ 1: 0.374631
+Hits (filt-entity) @ 3: 0.542773
+Hits (filt-entity) @ 10: 0.705015
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.439608
+Hits (raw_ent) @ 1: 0.320453
+Hits (raw_ent) @ 3: 0.505996
+Hits (raw_ent) @ 10: 0.664890
+MRR (filter_ent): 0.455884
+Hits (filter_ent) @ 1: 0.342438
+Hits (filter_ent) @ 3: 0.519987
+Hits (filter_ent) @ 10: 0.666556
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.439608   | 0.455884
+Hits@1     | 0.320453   | 0.342438
+Hits@3     | 0.505996   | 0.519987
+Hits@10    | 0.664890   | 0.666556
+========================================
+MRR (raw-entity): 0.453092
+Hits (raw-entity) @ 1: 0.343669
+Hits (raw-entity) @ 3: 0.506460
+Hits (raw-entity) @ 10: 0.666667
+MRR (filt-entity): 0.465299
+Hits (filt-entity) @ 1: 0.359173
+Hits (filt-entity) @ 3: 0.524548
+Hits (filt-entity) @ 10: 0.674419
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.441148
+Hits (raw_ent) @ 1: 0.323104
+Hits (raw_ent) @ 3: 0.506049
+Hits (raw_ent) @ 10: 0.665093
+MRR (filter_ent): 0.456959
+Hits (filter_ent) @ 1: 0.344349
+Hits (filter_ent) @ 3: 0.520508
+Hits (filter_ent) @ 10: 0.667454
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.441148   | 0.456959
+Hits@1     | 0.323104   | 0.344349
+Hits@3     | 0.506049   | 0.520508
+Hits@10    | 0.665093   | 0.667454
+========================================
+MRR (raw-entity): 0.389818
+Hits (raw-entity) @ 1: 0.279683
+Hits (raw-entity) @ 3: 0.432718
+Hits (raw-entity) @ 10: 0.612137
+MRR (filt-entity): 0.405279
+Hits (filt-entity) @ 1: 0.300792
+Hits (filt-entity) @ 3: 0.451187
+Hits (filt-entity) @ 10: 0.614776
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.435985
+Hits (raw_ent) @ 1: 0.318737
+Hits (raw_ent) @ 3: 0.498673
+Hits (raw_ent) @ 10: 0.659766
+MRR (filter_ent): 0.451761
+Hits (filter_ent) @ 1: 0.339968
+Hits (filter_ent) @ 3: 0.513535
+Hits (filter_ent) @ 10: 0.662155
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.435985   | 0.451761
+Hits@1     | 0.318737   | 0.339968
+Hits@3     | 0.498673   | 0.513535
+Hits@10    | 0.659766   | 0.662155
+========================================
+MRR (raw-entity): 0.454236
+Hits (raw-entity) @ 1: 0.346032
+Hits (raw-entity) @ 3: 0.514286
+Hits (raw-entity) @ 10: 0.653968
+MRR (filt-entity): 0.469993
+Hits (filt-entity) @ 1: 0.374603
+Hits (filt-entity) @ 3: 0.517460
+Hits (filt-entity) @ 10: 0.653968
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.437393
+Hits (raw_ent) @ 1: 0.320843
+Hits (raw_ent) @ 3: 0.499878
+Hits (raw_ent) @ 10: 0.659319
+MRR (filter_ent): 0.453168
+Hits (filter_ent) @ 1: 0.342640
+Hits (filter_ent) @ 3: 0.513838
+Hits (filter_ent) @ 10: 0.661523
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.437393   | 0.453168
+Hits@1     | 0.320843   | 0.342640
+Hits@3     | 0.499878   | 0.513838
+Hits@10    | 0.659319   | 0.661523
+========================================
+MRR (raw-entity): 0.467796
+Hits (raw-entity) @ 1: 0.350877
+Hits (raw-entity) @ 3: 0.526316
+Hits (raw-entity) @ 10: 0.695906
+MRR (filt-entity): 0.474828
+Hits (filt-entity) @ 1: 0.362573
+Hits (filt-entity) @ 3: 0.526316
+Hits (filt-entity) @ 10: 0.695906
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.438615
+Hits (raw_ent) @ 1: 0.322050
+Hits (raw_ent) @ 3: 0.500940
+Hits (raw_ent) @ 10: 0.660790
+MRR (filter_ent): 0.454038
+Hits (filter_ent) @ 1: 0.343441
+Hits (filter_ent) @ 3: 0.514339
+Hits (filter_ent) @ 10: 0.662906
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.438615   | 0.454038
+Hits@1     | 0.322050   | 0.343441
+Hits@3     | 0.500940   | 0.514339
+Hits@10    | 0.660790   | 0.662906
+========================================
+MRR (raw-entity): 0.421311
+Hits (raw-entity) @ 1: 0.302469
+Hits (raw-entity) @ 3: 0.475309
+Hits (raw-entity) @ 10: 0.648148
+MRR (filt-entity): 0.425457
+Hits (filt-entity) @ 1: 0.302469
+Hits (filt-entity) @ 3: 0.487654
+Hits (filt-entity) @ 10: 0.648148
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.437980
+Hits (raw_ent) @ 1: 0.321332
+Hits (raw_ent) @ 3: 0.500000
+Hits (raw_ent) @ 10: 0.660326
+MRR (filter_ent): 0.452990
+Hits (filter_ent) @ 1: 0.341938
+Hits (filter_ent) @ 3: 0.513361
+Hits (filter_ent) @ 10: 0.662364
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.437980   | 0.452990
+Hits@1     | 0.321332   | 0.341938
+Hits@3     | 0.500000   | 0.513361
+Hits@10    | 0.660326   | 0.662364
+========================================
+MRR (raw-entity): 0.443501
+Hits (raw-entity) @ 1: 0.339674
+Hits (raw-entity) @ 3: 0.494565
+Hits (raw-entity) @ 10: 0.633152
+MRR (filt-entity): 0.455201
+Hits (filt-entity) @ 1: 0.358696
+Hits (filt-entity) @ 3: 0.497283
+Hits (filt-entity) @ 10: 0.633152
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.438405
+Hits (raw_ent) @ 1: 0.322742
+Hits (raw_ent) @ 3: 0.499582
+Hits (raw_ent) @ 10: 0.658236
+MRR (filter_ent): 0.453160
+Hits (filter_ent) @ 1: 0.343227
+Hits (filter_ent) @ 3: 0.512124
+Hits (filter_ent) @ 10: 0.660117
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.438405   | 0.453160
+Hits@1     | 0.322742   | 0.343227
+Hits@3     | 0.499582   | 0.512124
+Hits@10    | 0.658236   | 0.660117
+========================================
+MRR (raw-entity): 0.392199
+Hits (raw-entity) @ 1: 0.267647
+Hits (raw-entity) @ 3: 0.458824
+Hits (raw-entity) @ 10: 0.620588
+MRR (filt-entity): 0.404289
+Hits (filt-entity) @ 1: 0.285294
+Hits (filt-entity) @ 3: 0.458824
+Hits (filt-entity) @ 10: 0.623529
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.435339
+Hits (raw_ent) @ 1: 0.319087
+Hits (raw_ent) @ 3: 0.496877
+Hits (raw_ent) @ 10: 0.655738
+MRR (filter_ent): 0.449917
+Hits (filter_ent) @ 1: 0.339383
+Hits (filter_ent) @ 3: 0.508587
+Hits (filter_ent) @ 10: 0.657689
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.435339   | 0.449917 56%|█████▌    | 19/34 [00:01<00:01, 13.85it/s] 62%|██████▏   | 21/34 [00:01<00:00, 13.39it/s] 68%|██████▊   | 23/34 [00:01<00:00, 14.19it/s] 74%|███████▎  | 25/34 [00:01<00:00, 14.08it/s]
+Hits@1     | 0.319087   | 0.339383
+Hits@3     | 0.496877   | 0.508587
+Hits@10    | 0.655738   | 0.657689
+========================================
+MRR (raw-entity): 0.409097
+Hits (raw-entity) @ 1: 0.314371
+Hits (raw-entity) @ 3: 0.440120
+Hits (raw-entity) @ 10: 0.607784
+MRR (filt-entity): 0.412281
+Hits (filt-entity) @ 1: 0.317365
+Hits (filt-entity) @ 3: 0.443114
+Hits (filt-entity) @ 10: 0.616767
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.433733
+Hits (raw_ent) @ 1: 0.318798
+Hits (raw_ent) @ 3: 0.493404
+Hits (raw_ent) @ 10: 0.652803
+MRR (filter_ent): 0.447614
+Hits (filter_ent) @ 1: 0.338036
+Hits (filter_ent) @ 3: 0.504580
+Hits (filter_ent) @ 10: 0.655185
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.433733   | 0.447614
+Hits@1     | 0.318798   | 0.338036
+Hits@3     | 0.493404   | 0.504580
+Hits@10    | 0.652803   | 0.655185
+========================================
+MRR (raw-entity): 0.390965
+Hits (raw-entity) @ 1: 0.293413
+Hits (raw-entity) @ 3: 0.434132
+Hits (raw-entity) @ 10: 0.574850
+MRR (filt-entity): 0.399851
+Hits (filt-entity) @ 1: 0.305389
+Hits (filt-entity) @ 3: 0.443114
+Hits (filt-entity) @ 10: 0.574850
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.431267
+Hits (raw_ent) @ 1: 0.317334
+Hits (raw_ent) @ 3: 0.489986
+Hits (raw_ent) @ 10: 0.648308
+MRR (filter_ent): 0.444860
+Hits (filter_ent) @ 1: 0.336153
+Hits (filter_ent) @ 3: 0.501036
+Hits (filter_ent) @ 10: 0.650553
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.431267   | 0.444860
+Hits@1     | 0.317334   | 0.336153
+Hits@3     | 0.489986   | 0.501036
+Hits@10    | 0.648308   | 0.650552
+========================================
+MRR (raw-entity): 0.390465
+Hits (raw-entity) @ 1: 0.273869
+Hits (raw-entity) @ 3: 0.464824
+Hits (raw-entity) @ 10: 0.608040
+MRR (filt-entity): 0.414702
+Hits (filt-entity) @ 1: 0.311558
+Hits (filt-entity) @ 3: 0.477387
+Hits (filt-entity) @ 10: 0.610553
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.428644
+Hits (raw_ent) @ 1: 0.314540
+Hits (raw_ent) @ 3: 0.488368
+Hits (raw_ent) @ 10: 0.645719
+MRR (filter_ent): 0.442921
+Hits (filter_ent) @ 1: 0.334572
+Hits (filter_ent) @ 3: 0.499515
+Hits (filter_ent) @ 10: 0.647981
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.428644   | 0.442921
+Hits@1     | 0.314540   | 0.334572
+Hits@3     | 0.488368   | 0.499515
+Hits@10    | 0.645719   | 0.647981
+========================================
+MRR (raw-entity): 0.411864
+Hits (raw-entity) @ 1: 0.316583
+Hits (raw-entity) @ 3: 0.467337
+Hits (raw-entity) @ 10: 0.603015
+MRR (filt-entity): 0.420943
+Hits (filt-entity) @ 1: 0.331658
+Hits (filt-entity) @ 3: 0.472362
+Hits (filt-entity) @ 10: 0.603015
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.428121
+Hits (raw_ent) @ 1: 0.314603
+Hits (raw_ent) @ 3: 0.487713
+Hits (raw_ent) @ 10: 0.644389
+MRR (filter_ent): 0.442236
+Hits (filter_ent) @ 1: 0.334481
+Hits (filter_ent) @ 3: 0.498670
+Hits (filter_ent) @ 10: 0.646580
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.428121   | 0.442236
+Hits@1     | 0.314603   | 0.334481
+Hits@3     | 0.487713   | 0.498670
+Hits@10    | 0.644389   | 0.646580
+========================================
+MRR (raw-entity): 0.461080
+Hits (raw-entity) @ 1: 0.364929
+Hits (raw-entity) @ 3: 0.511848
+Hits (raw-entity) @ 10: 0.616114
+MRR (filt-entity): 0.484685
+Hits (filt-entity) @ 1: 0.402844
+Hits (filt-entity) @ 3: 0.516588
+Hits (filt-entity) @ 10: 0.616114
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.429175
+Hits (raw_ent) @ 1: 0.316212
+Hits (raw_ent) @ 3: 0.488485
+Hits (raw_ent) @ 10: 0.643485
+MRR (filter_ent): 0.443593
+Hits (filter_ent) @ 1: 0.336667
+Hits (filter_ent) @ 3: 0.499242
+Hits (filter_ent) @ 10: 0.645606
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.429175   | 0.443593
+Hits@1     | 0.316212   | 0.336667
+Hits@3     | 0.488485   | 0.499242
+Hits@10    | 0.643485   | 0.645606
+========================================
+MRR (raw-entity): 0.405839
+Hits (raw-entity) @ 1: 0.289973
+Hits (raw-entity) @ 3: 0.457995
+Hits (raw-entity) @ 10: 0.628726
+MRR (filt-entity): 0.419558
+Hits (filt-entity) @ 1: 0.306233
+Hits (filt-entity) @ 3: 0.482385
+Hits (filt-entity) @ 10: 0.634146
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.427939
+Hits (raw_ent) @ 1: 0.314823
+Hits (raw_ent) @ 3: 0.486870
+Hits (raw_ent) @ 10: 0.642703
+MRR (filter_ent): 0.442321
+Hits (filter_ent) @ 1: 0.335055
+Hits (filter_ent) @ 3: 0.498350
+Hits (filter_ent) @ 10: 0.644999
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.427939   | 0.442321
+Hits@1     | 0.314823   | 0.335055
+Hits@3     | 0.486870   | 0.498350
+Hits@10    | 0.642703   | 0.644999
+========================================
+MRR (raw-entity): 0.396493
+Hits (raw-entity) @ 1: 0.286667
+Hits (raw-entity) @ 3: 0.440000
+Hits (raw-entity) @ 10: 0.630000
+MRR (filt-entity): 0.406727
+Hits (filt-entity) @ 1: 0.303333
+Hits (filt-entity) @ 3: 0.446667
+Hits (filt-entity) @ 10: 0.633333
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.426641
+Hits (raw_ent) @ 1: 0.313661
+Hits (raw_ent) @ 3: 0.484936
+Hits (raw_ent) @ 10: 0.642179
+MRR (filter_ent): 0.440852
+Hits (filter_ent) @ 1: 0.333746
+Hits (filter_ent) @ 3: 0.496217
+Hits (filter_ent) @ 10: 0.644518
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.426641   | 0.440852
+Hits@1     | 0.313661   | 0.333746
+Hits@3     | 0.484936   | 0.496217
+Hits@10    | 0.642179   | 0.644518
+========================================
+MRR (raw-entity): 0.426271
+Hits (raw-entity) @ 1: 0.330409
+Hits (raw-entity) @ 3: 0.482456
+Hits (raw-entity) @ 10: 0.616959
+MRR (filt-entity): 0.432497
+Hits (filt-entity) @ 1: 0.336257
+Hits (filt-entity) @ 3: 0.488304
+Hits (filt-entity) @ 10: 0.622807
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.426624
+Hits (raw_ent) @ 1: 0.314413
+Hits (raw_ent) @ 3: 0.484825
+Hits (raw_ent) @ 10: 0.641046
+MRR (filter_ent): 0.440476
+Hits (filter_ent) @ 1: 0.333859
+Hits (filter_ent) @ 3: 0.495861
+Hits (filter_ent) @ 10: 0.643542
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.426624   | 0.440476
+Hits@1     | 0.314413   | 0.333859
+Hits@3     | 0.484825   | 0.495861
+Hits@10    | 0.641046   | 0.643542
+========================================
+MRR (raw-entity): 0.423979
+Hits (raw-entity) @ 1: 0.318750
+Hits (raw-entity) @ 3: 0.471875
+Hits (raw-entity) @ 10: 0.618750
+MRR (filt-entity): 0.439324
+Hits (filt-entity) @ 1: 0.343750
+Hits (filt-entity) @ 3: 0.478125
+Hits (filt-entity) @ 10: 0.618750
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.426518
+Hits (raw_ent) @ 1: 0.314588
+Hits (raw_ent) @ 3: 0.484302
+Hits (raw_ent) @ 10: 0.640146
+MRR (filter_ent): 0.440430
+Hits (filter_ent) @ 1: 0.334258
+Hits (filter_ent) @ 3: 0.495146
+Hits (filter_ent) @ 10: 0.642542
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter     79%|███████▉  | 27/34 [00:02<00:00, 14.10it/s] 85%|████████▌ | 29/34 [00:02<00:00, 14.60it/s] 91%|█████████ | 31/34 [00:02<00:00, 14.87it/s] 97%|█████████▋| 33/34 [00:02<00:00, 15.18it/s]100%|██████████| 34/34 [00:02<00:00, 13.76it/s]
+
+----------------------------------------
+MRR        | 0.426518   | 0.440430
+Hits@1     | 0.314588   | 0.334258
+Hits@3     | 0.484302   | 0.495146
+Hits@10    | 0.640146   | 0.642542
+========================================
+MRR (raw-entity): 0.448670
+Hits (raw-entity) @ 1: 0.355731
+Hits (raw-entity) @ 3: 0.486166
+Hits (raw-entity) @ 10: 0.644269
+MRR (filt-entity): 0.453102
+Hits (filt-entity) @ 1: 0.359684
+Hits (filt-entity) @ 3: 0.490119
+Hits (filt-entity) @ 10: 0.648221
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.427203
+Hits (raw_ent) @ 1: 0.315860
+Hits (raw_ent) @ 3: 0.484360
+Hits (raw_ent) @ 10: 0.640274
+MRR (filter_ent): 0.440821
+Hits (filter_ent) @ 1: 0.335044
+Hits (filter_ent) @ 3: 0.494990
+Hits (filter_ent) @ 10: 0.642717
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.427203   | 0.440821
+Hits@1     | 0.315860   | 0.335044
+Hits@3     | 0.484360   | 0.494990
+Hits@10    | 0.640274   | 0.642717
+========================================
+MRR (raw-entity): 0.546056
+Hits (raw-entity) @ 1: 0.440252
+Hits (raw-entity) @ 3: 0.616352
+Hits (raw-entity) @ 10: 0.723270
+MRR (filt-entity): 0.550570
+Hits (filt-entity) @ 1: 0.446541
+Hits (filt-entity) @ 3: 0.616352
+Hits (filt-entity) @ 10: 0.723270
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.429468
+Hits (raw_ent) @ 1: 0.318231
+Hits (raw_ent) @ 3: 0.486875
+Hits (raw_ent) @ 10: 0.641855
+MRR (filter_ent): 0.442913
+Hits (filter_ent) @ 1: 0.337169
+Hits (filter_ent) @ 3: 0.497303
+Hits (filter_ent) @ 10: 0.644253
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.429468   | 0.442913
+Hits@1     | 0.318231   | 0.337169
+Hits@3     | 0.486875   | 0.497303
+Hits@10    | 0.641855   | 0.644253
+========================================
+MRR (raw-entity): 0.428730
+Hits (raw-entity) @ 1: 0.356725
+Hits (raw-entity) @ 3: 0.473684
+Hits (raw-entity) @ 10: 0.549708
+MRR (filt-entity): 0.435255
+Hits (filt-entity) @ 1: 0.368421
+Hits (filt-entity) @ 3: 0.473684
+Hits (filt-entity) @ 10: 0.555556
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.429453
+Hits (raw_ent) @ 1: 0.319004
+Hits (raw_ent) @ 3: 0.486610
+Hits (raw_ent) @ 10: 0.640005
+MRR (filter_ent): 0.442759
+Hits (filter_ent) @ 1: 0.337797
+Hits (filter_ent) @ 3: 0.496829
+Hits (filter_ent) @ 10: 0.642471
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.429453   | 0.442759
+Hits@1     | 0.319004   | 0.337797
+Hits@3     | 0.486610   | 0.496829
+Hits@10    | 0.640005   | 0.642471
+========================================
+MRR (raw-entity): 0.869057
+Hits (raw-entity) @ 1: 0.770000
+Hits (raw-entity) @ 3: 0.970000
+Hits (raw-entity) @ 10: 0.996667
+MRR (filt-entity): 0.869057
+Hits (filt-entity) @ 1: 0.770000
+Hits (filt-entity) @ 3: 0.970000
+Hits (filt-entity) @ 10: 0.996667
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.444415
+Hits (raw_ent) @ 1: 0.334354
+Hits (raw_ent) @ 3: 0.503063
+Hits (raw_ent) @ 10: 0.652144
+MRR (filter_ent): 0.457269
+Hits (filter_ent) @ 1: 0.352507
+Hits (filter_ent) @ 3: 0.512934
+Hits (filter_ent) @ 10: 0.654527
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.444415   | 0.457269
+Hits@1     | 0.334354   | 0.352507
+Hits@3     | 0.503063   | 0.512934
+Hits@10    | 0.652144   | 0.654527
+========================================
+MRR (raw-entity): 0.910814
+Hits (raw-entity) @ 1: 0.852090
+Hits (raw-entity) @ 3: 0.958199
+Hits (raw-entity) @ 10: 0.996785
+MRR (filt-entity): 0.910814
+Hits (filt-entity) @ 1: 0.852090
+Hits (filt-entity) @ 3: 0.958199
+Hits (filt-entity) @ 10: 0.996785
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.460311
+Hits (raw_ent) @ 1: 0.352000
+Hits (raw_ent) @ 3: 0.518575
+Hits (raw_ent) @ 10: 0.663890
+MRR (filter_ent): 0.472727
+Hits (filter_ent) @ 1: 0.369534
+Hits (filter_ent) @ 3: 0.528110
+Hits (filter_ent) @ 10: 0.666192
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.460311   | 0.472727
+Hits@1     | 0.352000   | 0.369534
+Hits@3     | 0.518575   | 0.528110
+Hits@10    | 0.663890   | 0.666192
+========================================
+MRR (raw-entity): 0.908517
+Hits (raw-entity) @ 1: 0.851735
+Hits (raw-entity) @ 3: 0.955836
+Hits (raw-entity) @ 10: 0.990536
+MRR (filt-entity): 0.908517
+Hits (filt-entity) @ 1: 0.851735
+Hits (filt-entity) @ 3: 0.955836
+Hits (filt-entity) @ 10: 0.990536
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.475359
+Hits (raw_ent) @ 1: 0.368778
+Hits (raw_ent) @ 3: 0.533256
+Hits (raw_ent) @ 10: 0.674857
+MRR (filter_ent): 0.487358
+Hits (filter_ent) @ 1: 0.385723
+Hits (filter_ent) @ 3: 0.542470
+Hits (filter_ent) @ 10: 0.677081
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.475359   | 0.487358
+Hits@1     | 0.368778   | 0.385723
+Hits@3     | 0.533256   | 0.542470
+Hits@10    | 0.674857   | 0.677081
+========================================
+MRR (raw-entity): 0.919249
+Hits (raw-entity) @ 1: 0.858025
+Hits (raw-entity) @ 3: 0.978395
+Hits (raw-entity) @ 10: 0.993827
+MRR (filt-entity): 0.919249
+Hits (filt-entity) @ 1: 0.858025
+Hits (filt-entity) @ 3: 0.978395
+Hits (filt-entity) @ 10: 0.993827
+
+[Detailed Metrics by Utils]
+
+[Detailed Metrics by Utils]
+MRR (raw_ent): 0.490086
+Hits (raw_ent) @ 1: 0.385009
+Hits (raw_ent) @ 3: 0.548024
+Hits (raw_ent) @ 10: 0.685439
+MRR (filter_ent): 0.501686
+Hits (filter_ent) @ 1: 0.401393
+Hits (filter_ent) @ 3: 0.556932
+Hits (filter_ent) @ 10: 0.687590
+
+========================================
+FINAL ENSEMBLE RESULT (ICEWS14s)
+========================================
+Metric     | Raw        | Filter    
+----------------------------------------
+MRR        | 0.490086   | 0.501686
+Hits@1     | 0.385009   | 0.401393
+Hits@3     | 0.548024   | 0.556932
+Hits@10    | 0.685439   | 0.687590
+========================================
